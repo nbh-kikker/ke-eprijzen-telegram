@@ -1,0 +1,28 @@
+[project]
+name = "Telegram-Energie-Prijzen-Bot"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Theo van der Sluijs <theo@vandersluijs.nl>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-aarch64"]
+
+[tasks]
+ePrijzenTelegram = "python src/main.py"
+
+[activation.env]
+PY_ENV = "prod"
+
+[dependencies]
+python = "3.11"
+apscheduler = ">=3.10.4,<3.11"
+pyyaml = ">=6.0.1,<6.1"
+requests = ">=2.32.3,<2.33"
+python-dateutil = ">=2.9.0,<2.10"
+psutil = ">=6.0.0,<6.1"
+idna = ">=3.7,<4"
+python-telegram-bot = '13.15'
+urllib3 = ">=2.2.2,<2.3"
+cachetools = ">=5.3.3,<5.4"
+certifi = ">=2024.7.4,<2024.8"
+tornado = ">=6.4.1,<6.5"
+pytz = ">=2024.1,<2025"
