@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "energie-telegram"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+apscheduler = "^3.10.4"
+pytz = "^2024.1"
+pytz-deprecation-shim = "^0.1.0.post0"
+six = "^1.16.0"
+tzdata = "^2024.1"
+tzlocal = "^5.2"
+cachetools = "^5.5.0"
+certifi = "^2024.7.4"
+charset-normalizer = "^3.3.2"
+idna = "^3.8"
+psutil = "^6.0.0"
+python-dateutil = "^2.9.0.post0"
+python-telegram-bot = "^21.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
